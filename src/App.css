@@ -1,0 +1,36 @@
+.container {
+  max-width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: inherit;
+}
+
+.bg-inherit {
+  background: inherit;
+}
+
+.card {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.form-control.bg-dark {
+  border-color: #ffffff;
+}
+
+.form-control.bg-dark::placeholder {
+  color: #bbbbbb;
+}
+
+.form-select.bg-dark {
+  border-color: #ffffff;
+}
+
+button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
